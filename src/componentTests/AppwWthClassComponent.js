@@ -32,7 +32,7 @@ class AppwWthClassComponent extends React.Component {
                     </button>
 
                     <div className="App">
-                    Contador con Component: {this.state.count}
+                    Contador con Class Component: {this.state.count}
                     </div>
 
                 </div>

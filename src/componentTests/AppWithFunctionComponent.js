@@ -21,7 +21,7 @@ function AppWithFunctionComponent() {
         </button>
 
         <div className="App">
-          Contador con function: {count}
+          Contador con Function Component: {count}
         </div>
 
     </div>
