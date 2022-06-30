@@ -1,12 +1,13 @@
 import '../App.css';
 import React from 'react';
 
-class Appwithcomponent extends React.Component {
+class AppwWthClassComponent extends React.Component {
 
     constructor(props) {
         super(props);
         this.state = {
-            count:0
+            count:0,
+            time:0,
         }
  }
 
@@ -18,11 +19,11 @@ class Appwithcomponent extends React.Component {
         return (
                 <div className="App">
                     Hola LAB
-                    <button onClick={()=> this.changeState(this.state.count +1)}>
+                    <button onClick={()=> this.changeState(this.state.count + 1)}>
                     sumar
                     </button>
 
-                    <button onClick={()=>this.changeState(this.state.count - 1)}>
+                    <button onClick={()=> this.changeState(this.state.count - 1)}>
                     restar
                     </button>
 
@@ -39,4 +40,4 @@ class Appwithcomponent extends React.Component {
    }
 }
 
-export default Appwithcomponent;
+export default AppwWthClassComponent;

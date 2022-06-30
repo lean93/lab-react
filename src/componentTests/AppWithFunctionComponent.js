@@ -1,9 +1,10 @@
 import '../App.css';
 import React, { useState } from 'react';
 
-function AppWithFunction() {
+function AppWithFunctionComponent() {
 
   const [count, setCount] = useState(5);
+  const [time, setTime] = useState(0);
 
   return (
     <div className="App">
@@ -28,4 +29,4 @@ function AppWithFunction() {
   );
 }
 
-export default AppWithFunction;
+export default AppWithFunctionComponent;
